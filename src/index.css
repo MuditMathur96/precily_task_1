@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.window-content{
+    height: calc(100% - 2rem);
+}
+
+.animated{
+    animation-name: example;
+    animation-duration: 1s;
+}
+
+@keyframes example{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
